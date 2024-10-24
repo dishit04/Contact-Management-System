@@ -39,7 +39,7 @@ Before running the application, ensure you have the following installed on your 
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/Adesh856/Contact_Managment_App.git
+    git clone https://github.com/dishit04/Contact-Management-System.git
     ```
    
 2. **Navigate to the backend directory**:
