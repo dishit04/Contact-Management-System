@@ -1,0 +1,80 @@
+.create-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; 
+  }
+  
+  .create-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .create-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .create-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .create-form input[type="text"] {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .create-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .create-form .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .create-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .create-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: #333;
+  }
+  

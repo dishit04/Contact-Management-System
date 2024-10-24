@@ -1,0 +1,109 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.data-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button, .update-button, .delete-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+.button:hover, .update-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #ff0000;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 200px;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
