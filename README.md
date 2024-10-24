@@ -69,7 +69,7 @@ Before running the application, ensure you have the following installed on your 
 
 1. **Navigate to the frontend directory**:
     ```bash
-    cd Client/Frontend
+    cd Frontend
     ```
 
 2. **Install frontend dependencies**:
